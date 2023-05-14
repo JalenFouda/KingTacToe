@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "KingTacToe/1.0.0": {
+        "runtime": {
+          "KingTacToe.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "KingTacToe/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
