@@ -19,3 +19,5 @@ C:\Users\jali1\source\repos\KingTacToe\KingTacToe\obj\Release\net6.0-windows\ref
 C:\Users\jali1\source\repos\KingTacToe\KingTacToe\obj\Release\net6.0-windows\KingTacToe.pdb
 C:\Users\jali1\source\repos\KingTacToe\KingTacToe\obj\Release\net6.0-windows\KingTacToe.genruntimeconfig.cache
 C:\Users\jali1\source\repos\KingTacToe\KingTacToe\obj\Release\net6.0-windows\ref\KingTacToe.dll
+C:\Users\jali1\source\repos\KingTacToe\KingTacToe\obj\Release\net6.0-windows\Home.g.cs
+C:\Users\jali1\source\repos\KingTacToe\KingTacToe\obj\Release\net6.0-windows\Home.baml

@@ -9,21 +9,40 @@
         Icon="C:\Users\jali1\source\repos\KingTacToe\KingTacToe\Images/TicTacToeKing.png">
 
     <Grid>
-        <Button x:Name="A00" Margin="10,10,784,505"  Click="Button_Clicks" FontSize="60" Cursor="Hand" RenderTransformOrigin="0.266,-0.054"/>
-        <Button x:Name="A01" Margin="221,10,570,505"   Click="Button_Clicks" FontSize="60" Cursor="Hand"/>
-        <Button x:Name="A02" Margin="435,10,367,505"   Click="Button_Clicks" FontSize="60" Cursor="Hand"/>
-        <Button x:Name="A10" Margin="10,184,784,321"   Click="Button_Clicks" FontSize="60" Cursor="Hand"/>
-        <Button x:Name="A11" Margin="221,184,570,321"   Click="Button_Clicks" FontSize="60" Cursor="Hand"/>
-        <Button x:Name="A12" Margin="435,184,367,321"   Click="Button_Clicks" FontSize="60" Cursor="Hand"/>
-        <Button x:Name="A20" Margin="10,369,784,139"   Click="Button_Clicks" FontSize="60" Cursor="Hand"/>
-        <Button x:Name="A21" Margin="221,369,570,139"   Click="Button_Clicks" FontSize="60" Cursor="Hand"/>
-        <Button x:Name="A22" Margin="435,368,367,139"   Click="Button_Clicks" FontSize="60" Cursor="Hand"/>
-
-        <Button x:Name="NewGamebtn" Margin="680,409,56,186" Content="New Game" FontSize="18" Click="newGame_btn_Click" Cursor="Hand"/>
-        <Button x:Name="Reset" Margin="680,503,56,98" Content="Reset" FontSize="18" Click="reset_btn_Click" Cursor="Hand" RenderTransformOrigin="0.985,0.564"/>
-        <Button x:Name="End" Margin="680,591,56,10" Content="End" FontSize="18" Click="end_btn_Click" Cursor="Hand" RenderTransformOrigin="0.985,0.564"/>
-        <Label x:Name="Player1" Margin="663,10,10,589" FontSize="40" Content="Player1 - X:"/>
-        <Label x:Name="Player2" Margin="662,95,10,504" FontSize="40" Content="Player2 - O:"/>
-        <Label x:Name="Draw" Margin="663,188,10,410" FontSize="40" Content="Draw:"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Button x:Name="A00" Grid.Row="0" Grid.Column="0"  Grid.RowSpan="2" Grid.ColumnSpan="2" Margin="20" Click="Button_Clicks" FontSize="60" Cursor="Hand" RenderTransformOrigin="0.266,-0.054"/>
+        <Button x:Name="A10" Grid.Row="0" Grid.Column="2"  Grid.RowSpan="2" Grid.ColumnSpan="2" Margin="20" Click="Button_Clicks" FontSize="60" Cursor="Hand"/>
+        <Button x:Name="A20" Grid.Row="0" Grid.Column="4"  Grid.RowSpan="2" Grid.ColumnSpan="2" Margin="20" Click="Button_Clicks" FontSize="60" Cursor="Hand"/>
+        <Button x:Name="A01" Grid.Row="2" Grid.Column="0"  Grid.RowSpan="2" Grid.ColumnSpan="2" Margin="20" Click="Button_Clicks" FontSize="60" Cursor="Hand"/>
+        <Button x:Name="A11" Grid.Row="2" Grid.Column="2"  Grid.RowSpan="2" Grid.ColumnSpan="2" Margin="20" Click="Button_Clicks" FontSize="60" Cursor="Hand"/>
+        <Button x:Name="A21" Grid.Row="2" Grid.Column="4"  Grid.RowSpan="2" Grid.ColumnSpan="2" Margin="20" Click="Button_Clicks" FontSize="60" Cursor="Hand"/>
+        <Button x:Name="A02" Grid.Row="4" Grid.Column="0"  Grid.RowSpan="2" Grid.ColumnSpan="2" Margin="20" Click="Button_Clicks" FontSize="60" Cursor="Hand"/>
+        <Button x:Name="A12" Grid.Row="4" Grid.Column="2"  Grid.RowSpan="2" Grid.ColumnSpan="2" Margin="20" Click="Button_Clicks" FontSize="60" Cursor="Hand"/>
+        <Button x:Name="A22" Grid.Row="4" Grid.Column="4"  Grid.RowSpan="2" Grid.ColumnSpan="2" Margin="20" Click="Button_Clicks" FontSize="60" Cursor="Hand"/>
+        
+        <Label x:Name="Player1"  Grid.Row="0" Grid.Column="6" Grid.ColumnSpan="2" Margin="20" FontSize="40" Content="Player1 - X:"/>
+        <Label x:Name="Player2" Grid.Row="1" Grid.Column="6" Grid.ColumnSpan="2" Margin="20" FontSize="40" Content="Player2 - O:"/>
+        <Label x:Name="Draw" Grid.Row="2" Grid.Column="6" Grid.ColumnSpan="2" Margin="20" FontSize="40" Content="Draw:"/>
+        <Button x:Name="NewGamebtn" Grid.Row="3" Grid.Column="6" Grid.ColumnSpan="2" Margin="20" Content="New Game" FontSize="18" Click="NewGame_btn_Click" ToolTip="Will empty the playing field" Cursor="Hand"/>
+        <Button x:Name="Reset" Grid.Row="4" Grid.Column="6" Grid.ColumnSpan="2" Margin="20" Content="Reset" FontSize="18" Click="Reset_btn_Click" ToolTip="Will empty play field and reset wins and draws." Cursor="Hand" RenderTransformOrigin="0.985,0.564"/>
+        <Button x:Name="End" Grid.Row="5" Grid.Column="6" Grid.ColumnSpan="1" Margin="20" Content="End" FontSize="18" Click="End_btn_Click" ToolTip="Will close the application" Cursor="Hand" RenderTransformOrigin="0.985,0.564"/>
+        <Button x:Name="Return" Grid.Row="5" Grid.Column="7" Grid.ColumnSpan="1" Margin="20" Content="Home" FontSize="18" Click="Return_Click" ToolTip="Going to Homepage and current Game will be deleted" Cursor="Hand" RenderTransformOrigin="0.985,0.564"/>
     </Grid>
 </Window>
