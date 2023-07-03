@@ -1,0 +1,16 @@
+﻿<Window x:Class="KingTacToe.Core.PickLevel"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KingTacToe.Core"
+        mc:Ignorable="d"
+        Title="PickLevel" Height="140" Width="140" Name="Pick" Background="#292828" WindowStyle="ToolWindow" WindowStartupLocation="CenterScreen"
+        Icon="C:\Users\jali1\source\repos\KingTacToe\KingTacToe\Images/TicTacToeKing.png">
+    <Grid>
+        <StackPanel>
+            <Button Margin="12" Height="20" Content="Easy Mode" Click="Easy"></Button>
+            <Button Margin="12" Height="20" Content="Medium Mode" Click="Medium"></Button>
+        </StackPanel>
+    </Grid>
+</Window>

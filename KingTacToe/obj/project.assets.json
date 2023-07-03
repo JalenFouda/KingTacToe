@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jali1\\source\\repos\\KingTacToe\\KingTacToe\\KingTacToe.csproj",
-      "projectName": "KingTacToe",
-      "projectPath": "C:\\Users\\jali1\\source\\repos\\KingTacToe\\KingTacToe\\KingTacToe.csproj",
+      "projectUniqueName": "C:\\Users\\jali1\\source\\repos\\KingTacToe\\KingTacToe\\KingTacToe.Core.csproj",
+      "projectName": "KingTacToe.Core",
+      "projectPath": "C:\\Users\\jali1\\source\\repos\\KingTacToe\\KingTacToe\\KingTacToe.Core.csproj",
       "packagesPath": "C:\\Users\\jali1\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\jali1\\source\\repos\\KingTacToe\\KingTacToe\\obj\\",
       "projectStyle": "PackageReference",

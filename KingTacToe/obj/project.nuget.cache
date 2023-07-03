@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0p57gAhk9uw2ZPQS4zffysxWhnIBRWnof9dVgZPkFpk1ZffYvZvG8Mye+bVUODT7vVUMWb7XpSgVOaziD3jefw==",
+  "dgSpecHash": "kd/vn8PlTBmC6HfIC+CptrzBB+i89rkfkEMJC2H5B7Pdv4V/pyJL3MKFPSFiunZSIi+r9sFVw1h7nj/RrhnU/g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jali1\\source\\repos\\KingTacToe\\KingTacToe\\KingTacToe.csproj",
+  "projectFilePath": "C:\\Users\\jali1\\source\\repos\\KingTacToe\\KingTacToe\\KingTacToe.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

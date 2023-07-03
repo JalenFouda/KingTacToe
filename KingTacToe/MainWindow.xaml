@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:KingTacToe"
         mc:Ignorable="d"
-        Title="KingTacToe" Name="King" Height="700" Width="1000"
+        Title="KingTacToe" Name="King" Height="700" Width="1000" Background="#292828" WindowStartupLocation="CenterScreen"
         Icon="C:\Users\jali1\source\repos\KingTacToe\KingTacToe\Images/TicTacToeKing.png">
 
     <Grid>
